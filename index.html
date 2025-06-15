@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GeefGericht - Doneer met Impact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="images/doneren.jpeg" alt="GeefGericht logo" class="logo" />
+    </div>
+    <h1>GeefGericht ❤</h1>
+    <p>Weet je niet waar je moet doneren? Wij helpen je kiezen!💪</p>
+  </header>
+
+  <main>
+    <section class="hero-image">
+      <div class="hero-text">
+        <h2>Doneer gericht...Maak impact!</h2>
+      </div>
+    </section>
+
+    <section id="choose-goal">
+      <h2>Kies je doel!</h2>
+      <div class="options">
+        <button data-goal="voedsel">🍽️ Voedselhulp</button>
+        <button data-goal="kanker">🎗️ Kankeronderzoek</button>
+        <button data-goal="vluchtelingen">🏠 Vluchtelingen</button>
+        <button data-goal="milieu">🌍 Milieu & Natuur</button>
+        <button data-goal="kleding">👕 Kleding doneren</button>
+      </div>
+    </section>
+
+    <section id="choose-donation" class="hidden">
+      <h2>Kies je donatievorm 🎁</h2>
+      <div class="options">
+        <button data-donation="geld">💸 Geld</button>
+        <button data-donation="kleding">👚 Kleding</button>
+        <button data-donation="spullen">🎒 Spullen</button>
+      </div>
+    </section>
+
+    <section id="recommendations" class="hidden">
+      <h2>Wij bevelen aan:</h2>
+      <div id="org-list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 GeefGericht – Transparantie & Vertrouwen</p>
+    <p>Hafez creations</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
